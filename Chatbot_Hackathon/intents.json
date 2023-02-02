@@ -1,0 +1,170 @@
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "patterns": [
+                "hola",
+                "buenos dias",
+                "buenas tardes",
+                "Buenas noches",
+                "buenas",
+                "Buenas",
+                "buen dia"
+            ],
+            "responses": [
+                "\u00a1Bienvenido al asistente virtual de DeepThinkers! \n\u00bfSe encuentra afiliado a nuestro sistema?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "afiliadon",
+            "patterns": [
+                "no estoy afiliado",
+                "no",
+                "negativo"
+            ],
+            "responses": [
+                "Ind\u00edquenos su correo electr\u00f3nico para su registro."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "afiliadop",
+            "patterns": [
+                "si estoy afiliado",
+                "si",
+                "correcto"
+            ],
+            "responses": [
+                "Ind\u00edquenos su correo electr\u00f3nico, por favor."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "usuarios",
+            "patterns": [
+                "my email is adga2002@hotmail.com"
+            ],
+            "responses": [
+                "\u00a1Verificado!. \u00bfDesea comprar o ver productos?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "comprar",
+            "patterns": [
+                "comprar",
+                "quiero comprar"
+            ],
+            "responses": [
+                "Inserte el producto que desea comprar."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "productos",
+            "patterns": [
+                "guineo",
+                "manzana",
+                "pan",
+                "queso",
+                "pollo",
+                "cafe",
+                "leche"
+            ],
+            "responses": [
+                "Indique la cantidad que desea comprar."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cantidad",
+            "patterns": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "libra",
+                "libras",
+                "gramos",
+                "kilos",
+                "litros",
+                "litro"
+            ],
+            "responses": [
+                "\u00a1Gracias por su compra!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "despedidas",
+            "patterns": [
+                "chao",
+                "adios",
+                "hasta luego",
+                "nos vemos",
+                "hasta la proxima"
+            ],
+            "responses": [
+                "\u00a1Un placer atenderte del equipo de DeepThinkers! Estamos atentos a cualquier duda adicional."
+            ],
+            "context": []
+        },
+        {
+            "tag": "agradecimientos",
+            "patterns": [
+                "gracias",
+                "muchas gracias",
+                "mil gracias",
+                "muy amable",
+                "se lo agradezco",
+                "fue de ayuda",
+                "gracias por la ayuda",
+                "muy agradecido",
+                "gracias por su tiempo"
+            ],
+            "responses": [
+                "De nada.",
+                "\u00a1Feliz por ayudarle!",
+                "Gracias a usted.",
+                "Estamos para servirle!",
+                "Fue un placer :)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "norespuesta",
+            "patterns": [
+                " "
+            ],
+            "responses": [
+                "No se ha detectado una respuesta v\u00e1lida."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
